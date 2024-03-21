@@ -33,6 +33,7 @@ const Layout = () => {
         name='calls'
         options={{
           title: 'Calls',
+          headerShown: false,
           tabBarIcon: ({ size, color}) => (
             <MaterialCommunityIcons name='phone-outline' size={size} color={color}/>
           ),
@@ -60,6 +61,7 @@ const Layout = () => {
         name='settings'
         options={{
           title: 'Settings',
+          headerShown: false,
           tabBarIcon: ({ size, color}) => (
             <Ionicons name='cog' size={size} color={color}/>
           ),
